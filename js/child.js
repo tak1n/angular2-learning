@@ -7,7 +7,7 @@ ChildComponent.annotations = [
     selector: 'child'
   }),
   new ng.ViewAnnotation({
-    template: '<p>{{ message }}</p>'
+    templateUrl: 'templates/child.html'
   })
 ];
 

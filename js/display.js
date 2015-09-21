@@ -8,14 +8,7 @@ DisplayComponent.annotations = [
     selector: 'display'
   }),
   new ng.ViewAnnotation({
-    template:
-       '<p>My name is {{ name }}</p>' +
-       '<p>Friends:</p>' +
-       '<ul>' +
-       '<li *ng-for="#name of names">' +
-       '{{ name }}' +
-       '</li>' +
-       '</ul>',
+    templateUrl: 'templates/display.html',
     directives: [ng.NgFor]
   })
 ];

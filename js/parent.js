@@ -6,8 +6,7 @@ ParentComponent.annotations = [
     selector: 'parent'
   }),
   new ng.ViewAnnotation({
-    template: '<p>This is parent</p>' +
-              '<child></child>',
+    templateUrl: 'templates/parent.html',
     directives: [ChildComponent]
   })
 ];
